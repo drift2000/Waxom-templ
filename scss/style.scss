@@ -3,6 +3,18 @@ a:hover {
 	text-decoration: none;
 	opacity: 0.75;
 }
+// header
+.header {
+	display: flex;
+}
+// stats
+.stats {
+	background-color: #fbfaf8;
+}
+// partner
+.partner {
+	background-image: url(../images/partner-bg.png);
+}
 // footer
 .footer {
 	width: 100%;
