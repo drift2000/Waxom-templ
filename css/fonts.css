@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-ExtraLight.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Light.ttf);
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway-ExtraBold.ttf);
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway-Medium.ttf);
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway-SemiBold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}

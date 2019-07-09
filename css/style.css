@@ -1,19 +1,62 @@
 /* Scss Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300|Raleway:400,500,600,800&display=swap");
 a:hover {
   text-decoration: none;
   opacity: 0.75;
 }
 
-.header {
-  display: flex;
+.logo {
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 400;
+}
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.slider-text {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.slider-text h3 {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 500;
+}
+.slider-text h2 {
+  font-family: Raleway;
+  font-size: 52px;
+  font-weight: 700;
 }
 
 .stats {
   background-color: #fbfaf8;
 }
+.stats .header {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+}
+.stats .text {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
 
 .partner {
   background-image: url(../images/partner-bg.png);
+}
+
+.theme {
+  background-image: url(../images/Background-theme.png);
 }
 
 .footer {
