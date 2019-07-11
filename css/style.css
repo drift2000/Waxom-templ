@@ -5,6 +5,10 @@ a:hover {
   opacity: 0.75;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 .logo {
   font-family: Raleway;
   color: #ffffff;
@@ -22,20 +26,100 @@ a:hover {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
+  top: 37vh;
 }
 .slider-text h3 {
   font-family: Raleway;
   font-size: 36px;
   font-weight: 500;
+  padding-bottom: 14px;
+  margin: 0;
 }
 .slider-text h2 {
   font-family: Raleway;
   font-size: 52px;
   font-weight: 700;
+  padding-bottom: 19px;
+  margin: 0;
+}
+.slider-text .carousel-indicators li {
+  background: url(/images/slider/dot.png) no-repeat;
+  opacity: 1;
+  margin: 0 7px 0 0;
+  height: 12px;
+  width: 12px;
+}
+.slider-text .carousel-indicators .active {
+  background: url(/images/slider/dot-active.png) no-repeat;
+  height: 23px;
+  width: 23px;
+}
+
+.about-us {
+  padding: 80px 0;
+}
+.about-us .img-icon {
+  height: 49px;
+  padding-bottom: 29px;
+}
+.about-us .header {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 19px;
+}
+.about-us .text {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 33px;
+}
+.about-us .line {
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+}
+.about-us a:hover {
+  background-color: #c7b299;
+  opacity: 1;
+}
+
+.counter {
+  background-image: url(../images/Background-counter.png);
+  background-image: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background-image: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background-image: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+  background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+  padding: 70px 0 60px 0;
+  text-align: center;
+}
+.counter .number {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 36px;
+  padding: 30px 0 21px 0;
+}
+.counter .text {
+  font-family: Montserrat;
+  color: #c7b299;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.counter .line {
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
 }
 
 .stats {
   background-color: #fbfaf8;
+  padding-top: 83px;
 }
 .stats .header {
   font-family: Raleway;
@@ -53,10 +137,79 @@ a:hover {
 
 .partner {
   background-image: url(../images/partner-bg.png);
+  padding: 140px 0;
+}
+
+.feature {
+  padding: 80px 0;
+}
+.feature h2 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 24px;
+  margin: 0;
+}
+.feature .text {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
 }
 
 .theme {
   background-image: url(../images/Background-theme.png);
+  padding: 48px 0;
+}
+.theme .text {
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.theme .text .logo {
+  color: #c7b299;
+}
+.theme .subtext {
+  font-family: Montserrat;
+  color: #615855;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.mobile-dev {
+  padding-top: 74px;
+  background-color: #fbfaf8;
+}
+.mobile-dev h2 {
+  font-family: Raleway;
+  color: #555555;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.mobile-dev .text {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  padding-bottom: 45px;
+}
+.mobile-dev ul {
+  list-style-image: url(../images/ar.png);
+  padding-left: 59px;
+}
+.mobile-dev li {
+  font-family: Montserrat;
+  color: #8c8c8c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  padding-left: 18px;
 }
 
 .footer {
