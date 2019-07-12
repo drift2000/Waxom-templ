@@ -217,34 +217,32 @@ p {
   background-color: #111111;
   padding: 44px 0;
 }
-
-.footer-copyrigh {
+.footer .footer-copyrigh {
   font-family: Montserrat;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
   color: #545454;
 }
-.footer-copyrigh .faq {
+.footer .footer-copyrigh .faq {
   color: #c7b299;
 }
-.footer-copyrigh .link {
+.footer .footer-copyrigh .link {
   color: #242424;
 }
-.footer-copyrigh .logo {
+.footer .footer-copyrigh .logo-footer {
   color: #959595;
 }
-.footer-copyrigh a {
+.footer .footer-copyrigh a {
   color: #545454;
 }
-
-.footer-design {
+.footer .footer-design {
   font-family: Montserrat;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
   color: #545454;
 }
-.footer-design .link {
+.footer .footer-design .link {
   color: #959595;
 }
