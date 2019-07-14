@@ -9,7 +9,20 @@ p {
 }
 // header
 .header {
-	//display: flex;
+	position: absolute;
+	z-index: 100;
+	right: 0;
+	width: 100%;
+	.nav-link{
+		font-family: Montserrat;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 400;
+		&:hover {
+			color: #c7b29a;
+			opacity: 1;
+		}
+	}
 }
 .logo {
 	font-family: Raleway;
@@ -67,14 +80,14 @@ p {
 		height: 49px;
 		padding-bottom: 29px;
 	}
-	.header {
+	.about-us_header {
 		font-family: Raleway;
 		color: #555555;
 		font-size: 22px;
 		font-weight: 600;
 		padding-bottom: 19px;
 	}
-	.text {
+	.about-us_text {
 		font-family: Montserrat;
 		color: #8c8c8c;
 		font-size: 14px;
@@ -109,7 +122,7 @@ p {
 		line-height: 36px;
 		padding: 30px 0 21px 0;
 	}
-	.text {
+	.counter_text {
 		font-family: Montserrat;
 		color: #c7b299;
 		font-size: 14px;
@@ -126,13 +139,13 @@ p {
 .stats {
 	background-color: #fbfaf8;
 	padding-top: 83px; 
-	.header {
+	.stats_header {
 		font-family: Raleway;
 		color: #555555;
 		font-size: 30px;
 		font-weight: 600;
 	}
-	.text {
+	.stats_text {
 		font-family: Montserrat;
 		color: #8c8c8c;
 		font-size: 16px;
@@ -157,7 +170,7 @@ p {
 		padding-bottom: 24px;
 		margin: 0;
 	}
-	.text {
+	.feature_text {
 		font-family: Montserrat;
 		color: #8c8c8c;
 		font-size: 16px;
@@ -169,7 +182,7 @@ p {
 .theme {
 	background-image: url(../images/Background-theme.png);
 	padding: 48px 0;
-	.text {
+	.theme_text {
 		font-family: Raleway;
 		font-size: 28px;
 		font-weight: 400;
@@ -196,7 +209,7 @@ p {
 		font-weight: 600;
 		padding-bottom: 40px;
 	}
-	.text {
+	.mobile-dev_text {
 		font-family: Montserrat;
 		color: #8c8c8c;
 		font-size: 16px;
